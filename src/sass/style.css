@@ -4,4 +4,13 @@
   border: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #FF9A6C;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
 }/*# sourceMappingURL=style.css.map */
