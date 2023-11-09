@@ -1,0 +1,25 @@
+#inicio {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 5rem 8rem 5rem;
+    position: relative;
+
+    .button {
+        background-color: $primary-color;
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        color: $white-color;
+    }
+}
+
+h1, h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 2rem;
+}

@@ -2,7 +2,7 @@ header {
     background-color: $color-header;
     display: flex;
     justify-content: space-between;
-    padding: 2rem 7rem;
+    padding: 1.6rem 7rem;
 
     nav {
         display: flex;
@@ -15,7 +15,7 @@ header {
         transition: ease .5s;
     }
 
-    a:hover {
+    nav a:hover {
         transform: scale(1.1);
         font-weight: 800;
     }
