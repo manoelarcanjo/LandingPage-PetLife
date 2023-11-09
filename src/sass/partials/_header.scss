@@ -2,5 +2,21 @@ header {
     background-color: $color-header;
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 2rem 7rem;
+
+    nav {
+        display: flex;
+        gap: 3rem;
+    }
+
+    a {
+        color: $white-color;
+        font-weight: 600;
+        transition: ease .5s;
+    }
+
+    a:hover {
+        transform: scale(1.1);
+        font-weight: 800;
+    }
 }

@@ -12,5 +12,18 @@ header {
   background-color: #FF9A6C;
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 2rem 7rem;
+}
+header nav {
+  display: flex;
+  gap: 3rem;
+}
+header a {
+  color: #FFFFFF;
+  font-weight: 600;
+  transition: ease 0.5s;
+}
+header a:hover {
+  transform: scale(1.1);
+  font-weight: 800;
 }/*# sourceMappingURL=style.css.map */
