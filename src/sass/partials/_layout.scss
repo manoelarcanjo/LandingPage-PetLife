@@ -38,6 +38,7 @@
     }
 }
 
+
 h1, h2 {
     font-weight: 600;
     font-size: 2rem;
@@ -60,6 +61,7 @@ h1, h2 {
         margin: 0 0 1rem 2rem;
     }
 }
+
 
 #farmacia {
     padding: 2rem 7rem;
@@ -96,17 +98,35 @@ h1, h2 {
             position: absolute;
             top: 32px;
             right: 1.6rem;
-        }
-
-        p {
-            border-bottom: 1px solid $primary-color;
-            border-left: 1px solid $primary-color;
-            border-right: 1px solid $primary-color;
-            border-radius: 0 0 8px 8px;
-            padding: 1.6rem;
+            transition: .2s;
         }
     }
 }
+
+.card .paragrafo {
+    border-bottom: 1px solid $primary-color;
+    border-left: 1px solid $primary-color;
+    border-right: 1px solid $primary-color;
+    border-radius: 0 0 8px 8px;
+    padding: 0 1.6rem;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.card.ativa .paragrafo{
+    height: 100%;
+    opacity: 1;
+    padding: 1.6rem;
+}
+
+.ativa {
+    img {
+        transform: rotate(90deg);
+    }
+}
+
 
 footer {
     background-color: rgba(255, 152,108, 0.25);
@@ -143,7 +163,6 @@ footer {
         }
     }
 }
-
 
 #copyright {
     background-color: $black-color;
