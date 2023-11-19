@@ -20,7 +20,8 @@
 * HTML
 * SASS
 * JAVASCRIPT
-* GOOGLE FONTS 
+* GOOGLE FONTS
+* AOS (Animate on Scroll Library)
 
 ## Como Usar 
 

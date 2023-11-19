@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/sass/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <title>PetLife</title>
 </head>
@@ -22,7 +23,7 @@
     </header>
 
     <main>
-        <section id="inicio">
+        <section id="inicio" data-aos="fade-up" data-aos-duration="1500">
             <img src="assets/img/start-img.svg" alt="Imagem de uma Mulher com um cachorro">
 
             <div>
@@ -39,7 +40,7 @@
             <img class="absolut" src="assets/img/shape.svg" alt="">
         </section>
 
-        <section id="clinica">
+        <section id="clinica" data-aos="fade-right" data-aos-duration="1500">
             <div>
                 <h2>Cuidado Veterinário de Qualidade</h2>
                 <p class="paragrafo">
@@ -60,21 +61,21 @@
             <img src="assets/img/clinic-img.svg" alt="Veterinária fazendo exames em um cachorro" loading="lazy">
         </section>
 
-        <section id="farmacia">
+        <section id="farmacia" data-aos="fade-left" data-aos-duration="1500">
             <h2>Venha conferir o nosso petshop e farmácia</h2>
             <img src="assets/img/shop-img.svg" alt="Atendente da farmacia petlife" loading="lazy">
-            <p class="paragrafo">
+            <p class="paragrafo" data-aos="fade-up" data-aos-duration="2000">
                 Além de ser uma clínica veterinária de confiança, também contamos com um completo petshop e farmácia. Nosso petshop oferece uma ampla seleção de produtos de alta qualidade, desde alimentos balanceados e petiscos deliciosos até brinquedos divertidos e acessórios elegantes para o seu pet. Na nossa farmácia, você encontrará uma variedade de medicamentos, produtos de cuidados e suplementos recomendados pelos nossos veterinários, garantindo que o bem-estar e a saúde do seu amado pet estejam sempre em boas mãos. Tudo o que você precisa para cuidar e mimar o seu pet está aqui, no nosso petshop e farmácia, com a mesma dedicação e qualidade que nos tornou referência na área veterinária.
             </p>
         </section>
 
-        <section id="duvidas">
+        <section id="duvidas" data-aos="zoom-out-up">
             <img class="img" src="assets/img/faq-img.svg" alt="Homem e uma Mulher tirando duvidas do site em um notebook" loading="lazy">
 
             <div>
                 <h2>Ficou algum dúvida?</h2>
 
-                <div class="card">
+                <div class="card" data-aos="fade-left" data-aos-duration="1500">
                     <h3>Quais serviços são oferecidos pela clínica veterinária da PetLife?</h3>
                     <img src="assets/img/arrow-down.svg" alt="seta para abrir o conteúdo">
                     <p class="paragrafo">
@@ -82,7 +83,7 @@
                     </p>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-left" data-aos-duration="2000">
                     <h3>Quais espécies de animais a clínica veterinária atende?</h3>
                     <img src="assets/img/arrow-down.svg" alt="seta para abrir o conteúdo">
                     <p class="paragrafo">
@@ -90,7 +91,7 @@
                     </p>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-left" data-aos-duration="2500">
                     <h3>A clínica veterinária da PetLife possui serviços de emergência?</h3>
                     <img src="assets/img/arrow-down.svg" alt="seta para abrir o conteúdo">
                     <p class="paragrafo">
@@ -99,7 +100,7 @@
                 </div>
 
                 
-                <div class="card">
+                <div class="card" data-aos="fade-left" data-aos-duration="3000">
                     <h3>A clínica oferece serviços de banho e tosa?</h3>
                     <img src="assets/img/arrow-down.svg" alt="seta para abrir o conteúdo">
                     <p class="paragrafo">
@@ -111,7 +112,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer data-aos="fade-down" data-aos-duration="2000">
         <div>
             <img src="assets/img/logo.svg" alt="PetLife">
             <p>Cuidando com amor, vivendo com alegria: PetLife, onde a vida dos pets é mais feliz!</p>
@@ -135,10 +136,15 @@
             <p>Endereço: <a href="https://www.google.com.br/maps/place/R.+Sete+de+Setembro+-+Centro,+Campina+Grande+-+PB,+58400-105/@-7.2169281,-35.8878035,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e4d00247bb3:0x12966a8bd5f393ff!8m2!3d-7.2169334!4d-35.8852286!16s%2Fg%2F11cnl13s45?entry=ttu" target="_blank">Av. 7 de Setembro, nº 42, Centro</a></p>
         </div>
     </footer>
-    <div id="copyright">
+    <div id="copyright" data-aos="fade-down" data-aos-duration="2000">
         Desenvolvido por <a href="https://github.com/manoelarcanjo" target="_blank">@manoelarcanjo</a> na trilha Start na Programação 🤘 da OneBitCode.
     </div>
 
     <script src="src/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
